@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Produto{% endblock %}
+
+{% block page_content %}
+<div class="Produto_Id">
+
+    <p1 class="titulo">{{product.nome}}</p1>
+    <ul>
+        <li>Descrição: {{product.description}}</li>
+        <li>Editora: {{product.editora}}</li>
+        <li>Preço: R${{product.preco | replace(".", ",")}}</li>
+        <li>Faixa Etária: {{product.faixa_etaria}}</li>
+        <li>Número de Jogadores: {{product.numero_de_jogadores}}</li>
+    </ul>
+</div>
+
+
+
+<div class="return">
+    <button type="button" class="btn btn-dark"><a href="/">Voltar</a></button>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Produtos{% endblock %}
+{% block page_content %}
+<h1 style="text-align: center;">Editar {{ product.name }}</h1>
+<form action="/edit_product/{{ product.id }}" class="container" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" name="nome", id="nome" placeholder="Nome" class="form-control">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="description" id="description" placeholder="Descrição" class="form-control">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="editora" id="editora" placeholder="Editora" class="form-control">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="preco" id="preco" placeholder="Preço" class="form-control">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="faixa_etaria" id="faixa_etaria" placeholder="Faixa etaria" class="form-control">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="numero_de_jogadores" id="numero_de_jogadores" placeholder="Nº  jogadores" class="form-control">
+        </div>
+    </div>
+    <br>
+    <div class="row col-xs-12">
+        <button type="submit" class="btn btn-block btn-success">Enviar</button>
+    </div>
+</form>
+<div class="return">
+    <a href="/produtos">Voltar</a>
+</div>
+{% endblock %}

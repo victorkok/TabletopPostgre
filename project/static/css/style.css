@@ -1,0 +1,407 @@
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 300px;
+
+}
+
+.menu>ul>li {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.selectOption {
+    margin-left: 10px;
+}
+
+.menu>ul>li>a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    color: black;
+
+}
+
+.menu>ul>li>a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-decoration: none;
+    color: red;
+}
+
+.consumerForm {
+    display: flex;
+    background-color: #FBFCF8;
+    border-radius: 3px;
+    padding: 1.8em;
+    align-content: space-around;
+}
+
+
+.destinyEdit {
+    display: flex;
+    background-color: #FBFCF8;
+    border-radius: 3px;
+    padding: 1.8em;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+
+.consumerForm>div>div {
+    margin-bottom: 10px;
+}
+
+.destinyEdit>div {
+    margin: 10px;
+}
+
+.return>button {
+    border-color:#17141d;
+    color: blue;
+}
+
+.return>button:hover {
+    border-color: #17141d;
+    background-color: #17141d;
+    color: white;
+    
+}
+
+
+.return>button>a {
+    color: black;
+}
+
+.return>button>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.productAdd {
+    display: flex;
+    background-color: #FBFCF8;
+    border-radius: 3px;
+    padding: 1.8em;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.productAdd>div>div {
+    margin-bottom: 10px;
+}
+
+.productEdit {
+    display: flex;
+    background-color: #FBFCF8;
+    border-radius: 3px;
+    padding: 1.8em;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.productEdit>div>div {
+    margin-bottom: 10px;
+}
+
+.jogo-principal {
+    font-size: 16px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.jogo-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 1px;
+    box-shadow: 1px 1px 4px;
+    border-radius: 10px;
+    color: #FBFCF8;
+    background-color: #17141d;
+}
+
+.jogo-principal .sub-titulo {
+    text-align: center;
+}
+
+.Logo {
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 20px;
+
+}
+
+.jogo-principal .titulo {
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.jogo-principal .botoes button {
+    margin: 0 auto;
+    display: block;
+}
+
+.container {
+    margin-left: 10px;
+
+}
+
+.jogo-principal .container {
+    width: 70%;
+}
+
+.item {
+    float: left;
+}
+
+
+.jogo-principal .img_home img {
+    max-width: 25%;
+    max-height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homeshow-lista-jogos {
+    margin-top: 100px;
+}
+
+.homeshow-lista-jogos .titulo {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homeshow-lista-jogos .owl-carousel {
+    margin-top: 30px;
+}
+
+
+.page-header input[type="submit"] {
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.page-header input[type="submit"]:hover {
+
+    background: #2ecc71;
+}
+
+.owl-item {
+
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 10px 15px 10px auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px;
+}
+
+.Logo {
+
+    text-align: center;
+}
+
+.sub-titulo {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.img_home {
+    top: 250px;
+    left: 80px;
+    object-fit: cover;
+
+}
+
+.tabela-produto {}
+
+.Produto_Id {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Produto_Id.titulo {
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-carou {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+}
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.card:hover~.card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.preco {
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    left: 20px;
+    bottom: 200px;
+}
+
+.bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+}
+
+.emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0, 154, 217);
+    background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%);
+    transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+}
+
+.circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+}
+
+.botao-cartao {
+    position: absolute;
+    top: 195px;
+    left: 65px;
+    border-radius: 10px;
+}
+
+.botao-cartao>a {
+    color: #17141d;
+}
+
+.botao-cartao:hover {
+    border-color: #ffffff;
+    background-color: #17141d;
+    
+}
+.botao-cartao:hover>a {
+    color: white;
+    
+}
+
+
+.botao-destaque{
+    border-radius: 10px;
+}
+
+.botao-destaque:hover {
+    border-color: #000000;
+    background-color: #17141d;
+    
+}
+.botao-destaque:hover>a {
+    color: white;
+    
+}
+
+.botao-destaque>a {
+    color: #17141d;
+}
+
+.stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+}
+
+svg {
+    fill: #17141d;
+    stroke-width: 2px;
+}
+
+.card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
